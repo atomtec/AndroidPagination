@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GitHubUserSerach</string>
+    <string name="network_not_available">Please check the network availability and try again</string>
+    <string name="top">Top</string>
+    <string name="twitterUsername">Not provided</string>
+    <string name="fetch_error">There is an error fetching data Please try after some time</string>
+    <string name="no_data">No data</string>
+    <string name="retry">Retry</string>
+    <string name="not_available">not available</string>
+    <string name="location_default">location not available</string>
+    <string name="name_default">No Name</string>
+</resources>
