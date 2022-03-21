@@ -25,11 +25,11 @@ a list
 
 ## Architecture 
 
-This app uses the Google's [Paging3]: https://developer.android.com/topic/libraries/architecture/paging/v3-overview
+This app uses the Google's [Paging3](https://developer.android.com/topic/libraries/architecture/paging/v3-overview)
 library to implement the paginated list with only **remote data source**
 
 The architecture is a  standard **MVVM** with UI observing the live data for the main list as 
-received from the ViewModel -> Repo->PagingSource->RemoteDataSource  .
+received from the ViewModel-> Repo-> PagingSource-> RemoteDataSource  .
 
 The details view just calls the user api for every user via the Viewmodel and is "suspending" sequential in nature
 
