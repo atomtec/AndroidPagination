@@ -1,4 +1,4 @@
-# GithubUser Serach
+# GithubUser Search
 
 An Android App that lists the github users sorted by most followers
 
@@ -6,7 +6,7 @@ An Android App that lists the github users sorted by most followers
 
 ## Resources
 
-[GitHub API]: https://docs.github.com/en/rest/reference/search
+[GitHub API](https://docs.github.com/en/rest/reference/search)
 
 
 ## Building
@@ -39,14 +39,14 @@ Every layer is (Repository , API ) is preceded by an interface for  separation a
 
 Dependency is managed using **Dagger2**
 
-## Rate Limit handling 
+### Rate Limit handling 
 
 The Github API is is rate limited and when the limit is crossed it it gives a 403 response 
 along with the time required for limit to be reset .
 In this app whenever a rate limit is hit a snackbar shows when the user can retry to fetch the data 
 and a footer with retry button is shown
 
-## Pull To Refresh
+### Pull To Refresh
 Pull to refresh has been added and launches a new new pagination from start .
 
 
