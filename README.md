@@ -48,8 +48,3 @@ and a footer with retry button is shown
 
 ### Pull To Refresh
 Pull to refresh has been added and launches a new new pagination from start .
-
-
-## Final Thoughts 
-I thoroughly enjoyed this cleverly designed  exercise .
-It was a great learning experience and that alone makes this worthwhile.
